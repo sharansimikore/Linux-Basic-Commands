@@ -59,3 +59,5 @@ rmdir
 rm -rf
                    
 uname - To find the Operating System Used
+
+history - To check all the previous commands entered
