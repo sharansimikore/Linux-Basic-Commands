@@ -1,0 +1,21 @@
+chmod permissions explanation
+
+chmod : chmod +x - executable
+
+chmod +r - readable
+
+chmod +w - writable
+
+chmod 777 text.sh-
+
+chmod usergroupothers text.sh
+
+
+0 = 0 = nothing
+1 = 1 = executable (x)
+2 = 2 = writable (w)
+3 = 2+1 = w+x
+4 = 4 = Read
+5 = 4+1 = r+x
+6 = 4+2 = r+w
+7 = 4+3 = r+w+x
