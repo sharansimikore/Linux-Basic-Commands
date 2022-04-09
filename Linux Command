@@ -61,3 +61,7 @@ rm -rf
 uname - To find the Operating System Used
 
 history - To check all the previous commands entered
+
+echo $? : This command is usedc to check the status of the previous command whether it is successful or fail
+If returned output is 0 then command is successful 
+If returned output is other than 0 the its a failure
