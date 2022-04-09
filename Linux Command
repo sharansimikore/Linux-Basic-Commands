@@ -1,0 +1,60 @@
+Linux Basic Commands
+
+Below are the basic linux commands
+
+pwd - To print the present working directory
+
+echo - To print the statement
+
+sudo- Execute command with super user permissions
+
+clear
+
+cd
+
+cd ~ - To move to the home directory
+
+cd / -  To move to the root directory
+
+ls
+
+ls : ls -lt
+
+ls : ls -lrt
+
+ls : ls -LS > text.txt
+
+cat - To show all the contents inside file
+
+less - To show all the contents in different terminal without affecting present and keeps terminal clean ( Use 'q' to quite)
+
+cat : cat -b text.txt - Prints all the content inside the file with line number except spaces in file
+
+cat : cat -n text.txt - Prints all the content inside the file with line number including spaces in line
+
+grep : grep cat text.txt - To search a perticular word or text in a file (prints Only lower case)
+
+grep : grep -i cat text.txt - This commnad searche cat word within the text.txt file irrespective of upper case and lower case
+
+sort - sorts accorning to alphabets
+
+sort : sort -n --Sorting with numerical order
+
+sort : sort -r -- Sorting in reverse order
+
+mv : mv source destination ( Used to rename the file)
+
+cp : cp source destination
+
+cp : cp -v source destination ( v- Verbose which indicates the process )
+
+touch : touch text.txt Used to create a file
+
+rm
+
+mkdir
+
+rmdir
+
+rm -rf
+                   
